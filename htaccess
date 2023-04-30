@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^t2g.cl [NC]
+
+RewriteRule ^(.*)$ https://www.t2g.cl/$1 [R=301,L]
